@@ -11,6 +11,7 @@ function adicionarAmigo() {
 
     if (amigos.includes(nomeAmigo)){
         alert(`O nome ${nomeAmigo} já está na lista`);
+        
         return;
     }
 
